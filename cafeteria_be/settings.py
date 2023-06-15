@@ -94,7 +94,7 @@ WSGI_APPLICATION = 'cafeteria_be.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'djongo',
-        'NAME': 'pruebaauth',
+        'NAME': 'cafeteria',
         'HOST': 'mongodb://localhost:27017/',
         'PORT': 27017,
         'ENFORCE_SCHEMA': False,
@@ -139,7 +139,7 @@ CORS_ORIGIN_ALLOW_ALL = True
 
 LANGUAGE_CODE = 'es-es'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'America/Asuncion'
 
 USE_I18N = True
 
